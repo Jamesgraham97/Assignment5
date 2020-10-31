@@ -1,0 +1,51 @@
+/* This is to make the background a color */
+body{
+	
+	background-color:#ff5757;
+	
+}
+/* !important forces the jumbotron to change colour */
+.jumbotron{
+    background-color: #757575 !important
+}
+.nav-link{
+	font-family: 'Squada One', cursive;
+	color:white;
+}
+
+.my-4{
+	font-family: 'Squada One', cursive;
+	color:white;
+	}
+/* centers the text on the image and changes the font */
+.image-text {
+	font-family: 'Syne Mono', monospace;
+	
+	color:#ff5757;
+	text-shadow: 2px 2px black;
+	font-size:30px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+}
+/* edits the image  */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+	height:800px;
+	
+	position: relative;
+}
+/* edits the content below the image */
+.my-4{
+	font-family: 'Squada One', cursive;
+	color:white;
+	font-size:19px;
+  text-align: center;
+  }
+
